@@ -9,6 +9,9 @@ return require("packer").startup(function(use)
 	-- Packer
 	use ('wbthomason/packer.nvim')
   
+  -- colorscheme
+  use("rebelot/kanagawa.nvim")
+
   -- icons
   use ('nvim-tree/nvim-web-devicons')
 
@@ -48,5 +51,10 @@ return require("packer").startup(function(use)
     {'L3MON4D3/LuaSnip'},     -- Required
   }
 }
-
+  
+  -- treesitter
+  use("nvim-treesitter/nvim-treesitter", { run = "TSUpdate"})
+  
+  -- transparent
+  use("xiyaowong/transparent.nvim")
 end)

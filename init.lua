@@ -8,3 +8,6 @@ require('lualine').setup()
 
 -- config terminal
 require('configs.toggleterm')
+
+-- config lsp
+require('configs.lsp')

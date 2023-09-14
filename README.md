@@ -18,6 +18,18 @@ Si deseas usar mi implementación de NeoVim sigue los siguientes pasos:
 ```bash
 git clone https://github.com/jtnvv/dotfiles.git
 ```
+5. Entrar a nvim usando `nvim .` en la terminal
+6. Ejecutar `:PackerSync` en el editor de nvim
+#### Windows:
+1. Ir al directorio `~/.config/nvim`
+2. Crear una carpeta llamada `nvim`
+3. Dentro de la carpeta abrir una terminal
+4. Clonar el repositorio:
+```bash
+git clone https://github.com/jtnvv/dotfiles.git
+```
+5. Entrar a nvim usando `nvim .` en la terminal
+6. Ejecutar `:PackerSync` en el editor de nvim
 ## Plugins usados🤠
 #### Manager de paquetes/plugins:
 - [Packer:](https://github.com/wbthomason/packer.nvim)
